@@ -1,5 +1,10 @@
 # Change Log
 
+## 0.3.0
+
+* Fix bug in the indention on files with no indention
+* Remove CLI form this repo / package
+
 ## 0.2.0
 
 * Enable `indention` field in scaffs-config (override template's indention)
