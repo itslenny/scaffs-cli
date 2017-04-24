@@ -1,6 +1,6 @@
 {
     "name": "scaffs-cli",
-    "version": "0.3.1",
+    "version": "0.3.2",
     "description": "A simple language agnostic scaffolder",
     "scripts": {
         "start": "tsc -w",
@@ -28,7 +28,7 @@
         "fs-extra": "^2.1.2",
         "minimist": "^1.2.0",
         "prompt-sync": "^4.1.4",
-        "scaffs": "../scaffs"
+        "scaffs": "~0.3.0"
     },
     "devDependencies": {
         "@types/fs-extra": "^2.0.0",
