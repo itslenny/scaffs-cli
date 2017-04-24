@@ -2,7 +2,7 @@
 
 [![Npm Version](https://img.shields.io/npm/v/scaffs-cli.svg?style=flat)](https://www.npmjs.com/package/scaffs-cli)
 [![Npm Downloads](https://img.shields.io/npm/dm/scaffs-cli.svg?style=flat)](https://www.npmjs.com/package/scaffs-cli)
-[![Build Status](https://travis-ci.org/itslenny/scaffs-cli.svg?branch=master)](https://travis-ci.org/itslenny/scaffs)
+[![Build Status](https://travis-ci.org/itslenny/scaffs-cli.svg?branch=master)](https://travis-ci.org/itslenny/scaffs-cli)
 [![Build status](https://ci.appveyor.com/api/projects/status/wfh45fnmixsnqkk6?svg=true)](https://ci.appveyor.com/project/itslenny/scaffs-cli)
 
 This is the cli scaffs utility.
