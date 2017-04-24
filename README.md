@@ -77,7 +77,7 @@ The scaffs config currently has to fields:
 
 ## Programmatic usage
 
-The library version of scaffs is a sub package in this repo so it doesn't need to include any of the cli dependencies.
+The library version of scaffs is a separate package so it doesn't need to include any of the cli dependencies.
 
 [Learn More](https://www.npmjs.com/package/scaffs)
 

@@ -4,6 +4,9 @@
 .vscode
 .DS_Store
 node_modules
-test
 tsconfig.json
 tslint.json
+**/*.log
+**/*.log.*
+bin
+test

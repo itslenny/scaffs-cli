@@ -9,7 +9,7 @@
         "noEmitOnError": true,
         "noImplicitAny": true,
         "noUnusedLocals": true,
-        "rootDir": "./bin",
+        "rootDir": ".",
         "skipLibCheck": true,
         "sourceMap": true,
         "sourceRoot": "",
@@ -26,18 +26,6 @@
         "types": [
             "node",
             "jasmine"
-        ],
-        "outDir": "./dist"
-    },
-    "exclude": [
-        "**/*.spec.ts",
-        "dist/**/*",
-        "node_modules/**/*",
-        "tmp/**/*",
-        "test/data/**/*",
-        "test/output/**/*"
-    ],
-    "include": [
-        "bin/**/*.*"
-    ]
+        ]
+    }
 }

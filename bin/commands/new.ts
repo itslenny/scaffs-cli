@@ -5,9 +5,7 @@
 
 import * as path from 'path';
 
-import { TemplateOptionsData } from '../../src/contracts/template-options';
-import { Scaffolder } from '../../src';
-import { ScaffoldConfig } from '../../src/contracts/scaffold';
+import { TemplateOptionsData, Scaffolder, ScaffoldConfig } from 'scaffs';
 import * as syncPrompt from 'prompt-sync';
 const prompt = syncPrompt();
 
