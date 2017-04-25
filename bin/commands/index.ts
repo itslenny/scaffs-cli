@@ -4,6 +4,7 @@
  */
 
 import { newCommand } from './new';
+import { listCommand } from './list';
 import { helpCommand } from './help';
 
 export interface Command {
@@ -16,6 +17,10 @@ export const commands: { [command: string]: Command } = {
     new: {
         fn: newCommand,
         help: 'Scaffold from a template - usage: scaffs new [scaffold name]',
+    },
+    list: {
+        fn: listCommand,
+        help: 'List the available scaffold names',
     },
     help: {
         fn: helpCommand,

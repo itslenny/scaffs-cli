@@ -1,13 +1,23 @@
 # Change Log
 
-## 0.3.0
+## 0.4.0
 
-* Fix bug in the indention on files with no indention
-* Remove CLI form this repo / package
+* Add list command to list available scaffods
+* Update scaffs library so it only lists directories
+
+## 0.3.x
+
+* 0.3.7
+    * Add version number to help screen
+* 0.3.6
+    * fix publishing without the js files
+    * add pre-publish hook
+* 0.3.0
+    * Enable `indention` field in scaffs-config (override template's indention)
+    * Move CLI to seprate repo / package
 
 ## 0.2.0
-
-* Enable `indention` field in scaffs-config (override template's indention)
+    * Code refactor to decouple cli and library
 
 ## 0.1.0
 
