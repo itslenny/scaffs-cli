@@ -15,7 +15,7 @@ export async function listCommand(cliArguments: Object) {
         let availableScaffNames: string[] = Object.keys(scaffsConfig.absoluteScaffPaths);
         console.log(' ');
         console.log('---------------------------------');
-        console.log('AVAILABLE SCAFFS!!')
+        console.log('AVAILABLE SCAFFS!!');
         console.log('---------------------------------');
         console.log(' ');
         for (let i = 0, len = availableScaffNames.length; i < len; i++) {
