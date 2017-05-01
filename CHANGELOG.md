@@ -1,5 +1,10 @@
 # Change Log
 
+## 0.5.0
+
+* Automatic discovery of registry scaffs (@scaffs)
+* Made .scaffs-config.json optional
+
 ## 0.4.0
 
 * Add list command to list available scaffods

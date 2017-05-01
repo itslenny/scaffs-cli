@@ -1,6 +1,6 @@
 {
     "name": "scaffs-cli",
-    "version": "0.4.0",
+    "version": "0.5.0",
     "description": "A simple language agnostic scaffolder",
     "scripts": {
         "start": "tsc -w",
@@ -10,7 +10,7 @@
         "clean:test-output": "rimraf test/output",
         "lint": "tslint \"**/*.ts\" --exclude=node_modules --exclude=**/*.d.ts --exclude=test/data/**/*.* --exclude=test/output/**/*.*",
         "tslint": "tslint",
-        "prepublish": "npm test && npm run clean && npm run build"
+        "prepublishOnly": "npm test && npm run clean && npm run build"
     },
     "repository": {
         "type": "git",
@@ -29,7 +29,7 @@
         "fs-extra": "^2.1.2",
         "minimist": "^1.2.0",
         "prompt-sync": "^4.1.4",
-        "scaffs": "~0.3.2"
+        "scaffs": "0.4.0"
     },
     "devDependencies": {
         "@types/fs-extra": "^2.0.0",
