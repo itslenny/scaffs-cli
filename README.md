@@ -110,16 +110,16 @@ The library version of scaffs is a separate package so it doesn't need to includ
 * [Contributing to Scaffs](CONTRIBUTING.md)
 * Contributing a Scaff
 
+## See also
+
+* [scaffs](https://github.com/itslenny/scaffs)
+* [scaffs vscode plugin](https://github.com/itslenny/scaffs-vscode)
+* [@scaffs registry](https://github.com/itslenny/scaffs-registry)
+
+
 ## TODO
 
-* Add list command (list available scaffolds)
 * Add comments
 * Add more tests
 * Break up documentation into separate pages
-* Add more examples / animated gifs
-* Create scaff scaff
-* Create test-project scaff
 * Refactor to Async/Await
-* Add option to customize indention
-* Add "flat" option that doesn't create the root directory
-* Auto load scaffs in node_modules/@scaffs if available
