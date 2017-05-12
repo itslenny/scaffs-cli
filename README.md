@@ -1,4 +1,4 @@
-# Scaffs (CLI)
+# ![Scaffs](https://raw.githubusercontent.com/itslenny/scaffs-cli/master/docs/images/Logo_Full_64.png) (CLI)
 
 [![Npm Version](https://img.shields.io/npm/v/scaffs-cli.svg?style=flat)](https://www.npmjs.com/package/scaffs-cli)
 [![Npm Downloads](https://img.shields.io/npm/dm/scaffs-cli.svg?style=flat)](https://www.npmjs.com/package/scaffs-cli)

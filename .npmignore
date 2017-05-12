@@ -10,3 +10,4 @@ tslint.json
 **/*.log.*
 bin
 test
+docs
