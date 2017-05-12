@@ -18,13 +18,16 @@ npm i -g scaffs-cli
 The gifs below show a simple example of scaffolding basic project from using the angular scaff from the [@scaffs registry](https://github.com/itslenny/scaffs-registry). This particular example is angular, but scaffs can be created for anything.
 
 **Install, add scaff, create module**
-![](https://raw.githubusercontent.com/itslenny/scaffs-cli/master/docs/images/01-cli-intro.gif)
+
+![Setup and basic usage](https://raw.githubusercontent.com/itslenny/scaffs-cli/master/docs/images/01-cli-intro.gif)
 
 **Create component**
-![](https://raw.githubusercontent.com/itslenny/scaffs-cli/master/docs/images/02-cli-component.gif)
+
+![Create component](https://raw.githubusercontent.com/itslenny/scaffs-cli/master/docs/images/02-cli-component.gif)
 
 **Create service**
-![](https://raw.githubusercontent.com/itslenny/scaffs-cli/master/docs/images/03-cli-service.gif)
+
+![Create service](https://raw.githubusercontent.com/itslenny/scaffs-cli/master/docs/images/03-cli-service.gif)
 
 ## Command line usage
 
