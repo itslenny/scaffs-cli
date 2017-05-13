@@ -29,7 +29,7 @@ The gifs below show a simple example of scaffolding basic project from using the
 
 ![Create service](https://raw.githubusercontent.com/itslenny/scaffs-cli/master/docs/images/03-cli-service.gif)
 
-## Command line usage
+## Usage
 
 ### Help screen
 
@@ -37,13 +37,21 @@ The gifs below show a simple example of scaffolding basic project from using the
 scaffs help
 ```
 
-### Scaffold - basic
+### List available scaffs
+
+```
+scaffs list
+```
+
+### New files from scaffold - basic
 
 Simply running the new command with a scaffold name will prompt you for any variables defined by the scaffold (e.g name, target path, etc) then it will generate files based on the scaffold
 
 ```
 scaffs new ScaffoldName
 ```
+
+> You can create your own scaffs or install them from the @scaffs registry ([learn more about both below](#additional-resources)).
 
 ### Scaffold - providing data with flags
 
@@ -57,65 +65,29 @@ You can bypass the prompts by simply providing all the needed data in flags.
 scaffs new ScaffoldName --target /create/at/this/path --data.name my thing --data.someNumbers=[1,3,5,7,9]
 ```
 
-### Scaffold - by absolute path
+### Scaffold - by path
 
-You can load scaffolds by name (explained above) or by providing a relative path to the scaffold with the `--source` flag.
+You can load scaffolds by name (explained above) or by providing a relative/absolute path to the scaffold with the `--source` flag.
 
 ```
-scaffs new --source ./my/scaffold/lives/here
+scaffs new --source ./path/to/scaffs/my-scaff
 ```
 
 > This can be used in conjunction with any of the flags explained above
 
+## Additional resources
 
-## Project config (.scaffs-config.json)
-
-To load scaffolds by name (see basic usage above) you need to tell scaffs where to find the scaffold. This is achieved by creating a `.scaffs-config.json` in the root of your project (where you plan to run the `scaffs` command).
-
-The scaffs config currently has to fields:
-
-* `scaffsPaths` (array) - list of folders to search for scaffolds. It is assumed that this folder contains a folder for each scaffold you want access to. The folder name is the scaffold name (`scaffs new FolderName`)
-* `scaffs` (object/map) - allows including individual scaffolds. The key of the object is used as the scaffold name so you can also use this to create package aliases
-
-**Config Example**
-
-```json
-{
-    "scaffsPaths": [
-        "./my/scaffolds/live/here",
-        "node_modules/@scaffs/someScaffold"
-    ],
-    "scaffs": {
-        "ExampleAlias": "./scaffolds/Example"
-    }
-}
-```
-
-## Programmatic usage
-
-The library version of scaffs is a separate package so it doesn't need to include any of the cli dependencies.
-
-[Learn More](https://www.npmjs.com/package/scaffs)
-
-## Creating Scaffolds
-
-...yeah, this will come at some point.
-
-## Plugins
-
-* soon!
+* [Scaffs library / programmatic usage](https://github.com/itslenny/scaffs) | [npm](https://www.npmjs.com/package/scaffs)
+* [Scaffs cli / command line usage](https://github.com/itslenny/scaffs-cli) | [npm](https://www.npmjs.com/package/scaffs-cli)
+* [Scaffs vs code plugin](https://github.com/itslenny/scaffs-vscode) | [vs code marketplace](https://marketplace.visualstudio.com/items?itemName=itslennysfault.scaffs-vscode)
+* [@scaffs registry](https://github.com/itslenny/scaffs-registry) | [npm](https://www.npmjs.com/~scaffs)
+* [Using scaffs config](https://github.com/itslenny/scaffs/tree/master/docs/md/config.md)
+* [Creating scaffs](https://github.com/itslenny/scaffs/tree/master/docs/md/create.md)
 
 ## Contributing
 
 * [Contributing to Scaffs](CONTRIBUTING.md)
 * Contributing a Scaff
-
-## See also
-
-* [scaffs](https://github.com/itslenny/scaffs)
-* [scaffs vscode plugin](https://github.com/itslenny/scaffs-vscode)
-* [@scaffs registry](https://github.com/itslenny/scaffs-registry)
-
 
 ## TODO
 
